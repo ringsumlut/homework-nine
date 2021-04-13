@@ -1,0 +1,154 @@
+.home-hero-image {
+    max-width: 980px;
+    min-height: 100px;
+    margin: 20px auto 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../images/panda.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-hero-image {
+    max-width: 980px;
+    min-height: 100px;
+    margin: 20px auto 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../images/cat.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products-hero-image {
+    max-width: 980px;
+    min-height: 100px;
+    margin: 20px auto 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../images/penguin.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-hero-image {
+    max-width: 980px;
+    min-height: 100px;
+    margin: 20px auto 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../images/puppy.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.games-hero-image {
+    max-width: 980px;
+    min-height: 100px;
+    margin: 20px auto 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../images/rabbit.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content {
+    //background-color: rgba(100, 100, 100, .5);
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content h1 {
+    color: #fff;
+    margin-left: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.hero-content .page-name {
+    text-transform: capitalize;
+}
+
+#app {
+    background-color: cornsilk;
+    color: #000;
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        
+    }
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       // text-align: center;
+       
+    }
+}
+.info {
+    display: flex;
+    p {
+        width: 420px;
+        margin-left: 20px;
+    }
+    .home-info-image {
+        width: 300px;
+        background-image:
+        url(../images/panda.jpg);
+        background-size: cover;
+        margin-left: 200px;
+        margin-bottom: 12px;
+
+    }
+    .about-info-image {
+        width: 300px;
+        background-image:
+        url(../images/cat.jpg);
+        background-size: cover;
+        margin-left: 200px;
+        margin-bottom: 12px;
+
+    }
+    .products-info-image {
+        width: 300px;
+        background-image:
+        url(../images/penguin.jpg);
+        background-size: cover;
+        margin-left: 200px;
+        margin-bottom: 12px;
+
+    }
+    .contact-info-image {
+        width: 300px;
+        background-image:
+        url(../images/puppy.jpeg);
+        background-size: cover;
+        margin-left: 200px;
+        margin-bottom: 12px;
+
+    }
+    .game-info-image {
+        width: 300px;
+        background-image:
+        url(../images/rabbit.jpg);
+        background-size: cover;
+        margin-left: 200px;
+        margin-bottom: 12px;
+
+    }
+}

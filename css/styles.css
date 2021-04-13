@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  max-width: 980px;
+  margin: 20px auto 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url("fonts/GillSans.ttf");
+}
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/ProximaNovaScOsfExtraCondensed.ttf");
+}
+nav {
+  max-width: 980px;
+  min-height: 60px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  font-weight: 700;
+}
+
+#sectionMain {
+  max-width: 980px;
+  height: 100%;
+  margin: 20px auto 0 auto;
+}
+
+#section-title {
+  width: 400px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar .active {
+  color: yellow;
+}
+
+.home-hero-image {
+  max-width: 980px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/panda.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-hero-image {
+  max-width: 980px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cat.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products-hero-image {
+  max-width: 980px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/penguin.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-hero-image {
+  max-width: 980px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/puppy.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.games-hero-image {
+  max-width: 980px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/rabbit.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  color: #fff;
+  margin-left: 500px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero-content .page-name {
+  text-transform: capitalize;
+}
+
+#app {
+  background-color: cornsilk;
+  color: #000;
+}
+#app h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#app p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+  display: flex;
+}
+.info p {
+  width: 420px;
+  margin-left: 20px;
+}
+.info .home-info-image {
+  width: 300px;
+  background-image: url(../images/panda.jpg);
+  background-size: cover;
+  margin-left: 200px;
+  margin-bottom: 12px;
+}
+.info .about-info-image {
+  width: 300px;
+  background-image: url(../images/cat.jpg);
+  background-size: cover;
+  margin-left: 200px;
+  margin-bottom: 12px;
+}
+.info .products-info-image {
+  width: 300px;
+  background-image: url(../images/penguin.jpg);
+  background-size: cover;
+  margin-left: 200px;
+  margin-bottom: 12px;
+}
+.info .contact-info-image {
+  width: 300px;
+  background-image: url(../images/puppy.jpeg);
+  background-size: cover;
+  margin-left: 200px;
+  margin-bottom: 12px;
+}
+.info .game-info-image {
+  width: 300px;
+  background-image: url(../images/rabbit.jpg);
+  background-size: cover;
+  margin-left: 200px;
+  margin-bottom: 12px;
+}

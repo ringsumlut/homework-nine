@@ -1,0 +1,19 @@
+var homeContent = `<div class="home"><h1>HOME</h1><div class="info"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum purus metus, imperdiet eu lorem vitae, mollis fermentum sapien. Aliquam euismod ac tortor vel varius. Praesent tempus, ligula non suscipit tristique, magna sapien ullamcorper mauris, a tristique urna ante at mauris. Mauris pretium vehicula elementum. Vivamus pharetra imperdiet nisl, in vehicula magna placerat nec. Maecenas urna dui, feugiat vitae ex vel, vulputate mollis sapien. Vestibulum laoreet nisi quis sapien lobortis porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in laoreet quam.</p><div class="home-info-image"></div></div></div>`
+var aboutContent = `<div class="about"><h1>ABOUT</h1><div class="info"><p>Phasellus vitae rutrum lectus. Mauris nec lorem quis risus rhoncus faucibus et sollicitudin nulla. Cras porttitor eleifend dolor quis tempor. Nam sit amet imperdiet sem. Fusce euismod lacinia eros. Donec eget congue ante. Maecenas ut ullamcorper ipsum, sed laoreet arcu. Maecenas vehicula sollicitudin quam, vel elementum massa molestie et. Donec accumsan dapibus eros, sit amet tristique neque viverra sit amet. Curabitur tellus metus, ultrices volutpat euismod sit amet, blandit et nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p><div class="about-info-image"></div></div></div>`
+var productsContent = `<div class="products"><h1>PRODUCTS</h1><div class="info"><p>Maecenas convallis ultricies lorem, nec imperdiet purus consequat a. Aliquam hendrerit nisl sed mi scelerisque rhoncus. Donec molestie maximus pellentesque. Donec cursus tellus a bibendum luctus. Vivamus tempor quis lorem nec convallis. Donec accumsan dignissim lacus in tempor. Nam ac nisi felis. Integer quis ullamcorper nisl. Sed nulla nisl, ullamcorper at posuere sed, pellentesque et ipsum. Sed scelerisque, nulla ut aliquet egestas, tellus libero tincidunt ipsum, vitae euismod odio velit id ante. Donec in libero facilisis, hendrerit orci at, faucibus arcu.</p><div class="products-info-image"></div></div></div>`
+var contactContent = `<div class="contact"><h1>CONTACT</h1><div class="info"><p>Pellentesque a arcu vitae lectus suscipit venenatis ut a tellus. Duis vel dignissim dolor. Aliquam non ullamcorper nisl. Nunc ac lorem odio. Fusce sem ex, luctus eu vulputate at, ornare et nibh. Duis accumsan ante fermentum auctor maximus. Praesent auctor eu tellus a venenatis. Cras vitae metus rhoncus, placerat elit quis, posuere risus. Donec volutpat mi sit amet nunc sodales vulputate. Curabitur sed vulputate sapien. Cras congue arcu vitae gravida ultricies. Nunc eu fermentum lacus.</p><div class="contact-info-image"></div></div></div>`
+var gamesContent = `<div class="games"><h1>GAMES</h1><div class="info"><p>In in convallis mi, sit amet euismod massa. Fusce sit amet mattis turpis. Aliquam nec enim sed justo laoreet ultricies eu quis diam. Vivamus in finibus turpis. Vivamus consequat quis enim nec elementum. Nam ut euismod felis, vel dignissim lorem. Proin vel vulputate quam. Proin fringilla lacus in laoreet luctus. Mauris ornare nunc sapien, id semper dui tempus eget. Nulla volutpat ex ut nibh varius, vel fermentum est bibendum. Quisque malesuada aliquam efficitur. Vivamus tincidunt nisi non augue congue egestas eget nec turpis.</p><div class="game-info-image"></div></div></div>`
+
+export function getPageContent (pageId) {
+ 
+    $("#app").html(eval(pageId));
+};
+
+// export function getName() {
+    //console.log("Ring");
+//}
+//function getLastName() {
+    //console.log("Sumlut");
+//}
+
+//export { getName, getPageContent };
